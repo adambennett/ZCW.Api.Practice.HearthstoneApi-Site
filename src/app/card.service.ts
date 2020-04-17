@@ -7,7 +7,8 @@ import {Observable} from "rxjs";
 })
 export class CardService {
 
-  public API = 'http://localhost:8080/';
+  // public API = 'http://localhost:8080/';
+  public API = 'https://zcw-hearthstone-api.herokuapp.com/';
 
   constructor(private http: HttpClient) { }
 
